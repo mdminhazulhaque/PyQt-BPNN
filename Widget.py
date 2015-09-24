@@ -84,11 +84,14 @@ class Widget(QWidget):
         # get predicted pattern
         pat_predicted = self.bpnn.test(test_pat)
         
+        i=0
+        
         # match predicted pattern with output patterns
         for pat in pat_train:
             if pat[1] == pat_predicted:
                 self.ui.result.setText("Possible number: <b>" + str(i) + "</b>")
                 return
+            i += 1
             
         self.ui.result.setText("Unknown pattern")
         
