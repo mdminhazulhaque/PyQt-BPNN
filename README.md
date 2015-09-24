@@ -18,7 +18,7 @@ Basically the app tests 10 `7 segment display` pattern with their actual values 
 
 A 7bit-input vs 4bit-output map would look like this.
 
-```
+```python
 [
 # 0  1  2  3  4  5  6
 [[1, 1, 1, 0, 1, 1, 1], [0, 0, 0, 0]], # 0
@@ -38,7 +38,7 @@ The program trains a Neural Network with 7bit input, 7bit hidden and 4bit output
 
 # How to Run
 
-To run, `python3 Widget.py`
+To run, execute `python3 Widget.py`.
 
 Then a pattern will be tested.
 
