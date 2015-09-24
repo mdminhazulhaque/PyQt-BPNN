@@ -40,7 +40,7 @@ The program trains a Neural Network with 7bit input, 7bit hidden and 4bit output
 
 To run, execute `python3 Widget.py`.
 
-Then a pattern will be tested.
+Then a the input patterns will be trained.
 
 ```
 Creating Neural Network...
@@ -53,7 +53,7 @@ error 3.66140 iterations 3000
 Training complete!
 ```
 
-And finally the user can provide input patterns and get predicted results.
+And finally the user can test any custom pattern and get predicted results.
 
 ![BPNN](preview.gif)
 
