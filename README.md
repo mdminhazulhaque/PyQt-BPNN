@@ -40,7 +40,7 @@ The program trains a Neural Network with 7bit input, 7bit hidden and 4bit output
 
 To run, execute `python3 Widget.py`.
 
-Then a the input patterns will be trained.
+Then all the input patterns will be trained.
 
 ```
 Creating Neural Network...
